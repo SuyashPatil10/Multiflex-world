@@ -7,7 +7,7 @@ export const showModal = function(data) {
     const modalBlock = document.querySelector('.single-block');
     modalBlock.textContent = '';
     modalBlock.insertAdjacentHTML('afterbegin', HTML);
-    addListeners('single');
+    addListeners();
 }
 
 const addListeners = function() {
