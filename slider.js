@@ -54,5 +54,5 @@ export const slider = function() {
     if(e.key === 'ArrowRight') nextSlide();
     });
 
-    // resetInterval();
+    resetInterval();
 }
